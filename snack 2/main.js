@@ -53,6 +53,8 @@ squadraCalcio.forEach((elemento) => {
 //mappatura nome e falli
 const nomiFalli = squadraCalcio.map(({ nome, falli }) => {
     console.log(`nome della squadra è: ${nome} e ha fatto ${falli} falli`);
+    return squadraCalcio
 })
+console.log(nomiFalli)
 
 
